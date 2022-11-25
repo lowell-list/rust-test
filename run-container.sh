@@ -2,5 +2,5 @@
 docker run \
   -it \
   --name rust-test-container \
-  --mount type=bind,source="$(pwd)"/app,target=/app \
+  --mount type=bind,source="$(pwd)"/apps,target=/apps \
   rust:slim-buster
